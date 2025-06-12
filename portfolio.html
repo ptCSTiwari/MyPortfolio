@@ -189,7 +189,7 @@ This is the information i am stored here is help into identify you about me.
 
 <body>
 
-  <!-- Header/Navbar -->
+  <!-- Navbar -->
   <header>
     <h1>Pushpendra's Portfolio</h1>
     <nav>
@@ -318,7 +318,6 @@ This is the information i am stored here is help into identify you about me.
     <p>&copy; 2025 Pushpendra Tiwari. All rights reserved.</p>
   </div>
 
-  <!-- LinkedIn Floating Icon -->
   <a href="https://www.linkedin.com/in/your-linkedin-profile" class="linkedin-float" target="_blank"
     title="Connect on LinkedIn">
     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
@@ -340,10 +339,8 @@ This is the information i am stored here is help into identify you about me.
       const windowHeight = window.innerHeight;
 
       if (footerTop < windowHeight + 10) {
-        // Footer screen par aagaya, icon ko thoda upar le jao
         linkedInBtn.style.bottom = (windowHeight - footerTop + 30) + 'px';
       } else {
-        // Footer screen par nahi hai, default bottom rakho
         linkedInBtn.style.bottom = '20px';
       }
     });
